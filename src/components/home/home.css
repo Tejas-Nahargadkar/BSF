@@ -1,0 +1,160 @@
+
+
+.Banner {
+  width: 100%;
+  height: 70vh;
+  background-color: #456caf;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+padding: 1rem 0 ;
+}
+.BannerContent {
+  width: 50%;
+  margin-left: 4rem;
+  padding: 1rem;
+  animation: bgSlideLeft 5s ease-out forwards;
+}
+.BannerContent p{
+  color: rgb(235, 235, 235);
+  word-wrap: normal;
+}
+.Caraousal{
+  width: 50%;
+}
+
+.BannerContent h1 {
+  font-size: 70px;
+  font-family: "Times New Roman", Times, serif;
+}
+.BannerContent .Finance {
+  color: #b2beff;
+}
+/*Heading Shimmer Effect*/
+.BannerContent body {
+  background: rgb(255, 255, 255);
+}
+.shimmer {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0 auto;
+  padding: 0 140px 0 0;
+  display: inline;
+  margin-bottom: 0;
+}
+
+.BannerContent h1 {
+  color: rgba(255, 255, 255, 0.1);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgb(1, 106, 148)),
+    to(rgb(0, 100, 182)),
+    color-stop(0.5, rgb(255, 255, 255))
+  );
+  background: -moz-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgb(31, 121, 255)),
+    to(rgb(0, 81, 255)),
+    color-stop(0.5, #fff)
+  );
+  background: gradient(
+    linear,
+    left top,
+    right top,
+    from(rgb(0, 76, 218)),
+    to(rgb(0, 96, 206)),
+    color-stop(0.5, #fff)
+  );
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: rgb(255, 255, 255);
+}
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@-o-keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+.button1 {
+  background-color: #09c7a5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  color: white;
+  cursor: pointer;
+}
+
+.Secondry{
+  margin: 1rem;
+  padding: 1rem;
+}
+.Secondry h1{
+  color: #b2beff;
+}
+.Secondry p{
+  color: rgb(148, 146, 146);
+}
+.Names{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.SecondryImages img{
+  margin: 1rem;
+  padding: 1rem;
+}
